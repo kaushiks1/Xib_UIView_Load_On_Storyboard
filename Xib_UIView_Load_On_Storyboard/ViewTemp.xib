@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ViewTemp" customModule="Xib_UIView_Load_On_Storyboard" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wAM-1J-gUI">
+                    <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rel-Re-9o7">
+                    <frame key="frameInset" minX="126" minY="395" width="69" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.25108022860000001" green="0.97541721199999998" blue="0.17494161320000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Click here"/>
+                    <connections>
+                        <action selector="buttonActionClickHere:" destination="iN0-l3-epB" eventType="touchUpInside" id="aoX-F4-jSR"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.34826705429999999" green="1" blue="0.87980783740000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="wAM-1J-gUI" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="GXi-xg-LyQ"/>
+                <constraint firstItem="wAM-1J-gUI" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="100/568" id="Mtg-Ll-xTO"/>
+                <constraint firstItem="wAM-1J-gUI" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="100/320" id="Tbo-M1-GWO"/>
+                <constraint firstItem="wAM-1J-gUI" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="yMD-9k-oOd"/>
+            </constraints>
+            <point key="canvasLocation" x="80" y="154"/>
+        </view>
+    </objects>
+</document>
